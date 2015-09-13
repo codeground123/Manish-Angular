@@ -1,5 +1,7 @@
 ﻿myApp.controller("empController", function ($scope, $location) {
 
+    $scope.message = "test message";
+
     $scope.empData = [
         { name: 'Mark Waugh', city: 'New York' },
         { name: 'Steve Jonathan', city: 'London' },

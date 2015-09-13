@@ -1,5 +1,7 @@
 ﻿myApp.controller("firstController", function ($scope) {
 
+    $scope.testMessage = "test message";
+
     $scope.isOne = function () {
         if (typeof $scope.message !== 'undefined') {
             return $scope.message.length == 1;
