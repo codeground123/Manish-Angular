@@ -4,7 +4,7 @@
     return function (arr, seperator) {
             
         if (!arr) {
-            return "";
+            return "error";
         }
         return arr.join(seperator);
     };
