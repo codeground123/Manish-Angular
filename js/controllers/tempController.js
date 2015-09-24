@@ -1,7 +1,7 @@
 ﻿myApp.controller("tempController", function ($scope) {
 
 
-    $scope.message = "hello world";
+    $scope.testMessage = "testMessage";
 
 
     $scope.names = ["Phani", "Kumar", "Raj", "Kunal"];
